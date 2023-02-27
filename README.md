@@ -20,7 +20,3 @@ Além disso, esse arquivo faz nossa conexão e comunicação entre o banco de da
 
 <h2>Aqui, a ideia é também apenas realizar uma alteração no campo "saldo" da tabela pessoas. O cálculo seria realizado em PL/SQL diretamente pela consulta, PHP ou JS.<h2>
 
-
- 
-
-###
