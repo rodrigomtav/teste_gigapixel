@@ -3,7 +3,7 @@
 O teste consiste na criação de um sistema CRUD simples utilizando PHP.
 Para o banco de dados, escolhi o MySQL.
 
-<h3> Index.php <h3>
+<h2> Index.php <h2>
 
 Na index.php, criei um menu muito básico apenas para navegar entre os arquivos. (incompleto)
 Além disso, esse arquivo faz nossa conexão e comunicação entre o banco de dados através do objeto $PDO.
