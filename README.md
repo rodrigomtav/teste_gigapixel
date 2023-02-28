@@ -1,7 +1,7 @@
 <h1> teste_gigapixel <h1>
 
-<h2>O teste consiste na criação de um sistema CRUD simples utilizando PHP.
-Para o banco de dados, escolhi o MySQL. <h2>
+O teste consiste na criação de um sistema CRUD simples utilizando PHP.
+Para o banco de dados, escolhi o MySQL. 
 
 <h1> Index.php <h1>
 <h2>Na index.php, criei um menu muito básico apenas para navegar entre os arquivos.
