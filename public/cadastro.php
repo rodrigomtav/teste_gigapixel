@@ -1,22 +1,21 @@
+<h1> Novo Cadastro <h1>
 
-<?php
-    function incluir($nome, $PDO){
-        $PDO = $PDO;
-        $nome = $nome;
-        $sql = "INSERT INTO pessoa(nome) VALUES(:nome)";
-        $stmt = $PDO->prepare( $sql );
-        $stmt->bindParam( ':nome', $nome );
-        
-        $result = $stmt->execute();
-        
-        if ( ! $result )
-        {
-            var_dump( $stmt->errorInfo() );
-            exit;
-        }
-        
-        echo $stmt->rowCount() . "linhas inseridas";
-    }
+<!-- Formulário para receber os inputs e enviar a ação-->
+<form action="?page=salvar" method="POST">
+    <input type="hidden" name="acao" value="cadastrar">
 
-//incluir('Lionel Messi', $PDO);
-?>
+    <div class="mb-3">
+        <label>Nome</label>
+        <input type="text" name="nome" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label>Saldo (opcional)</label>
+        <input type="number" name="saldo" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <button type="submit" class="btn-primary">Enviar</button>
+    </div>
+</form>
+
